@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKR Officials - Video Editing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: background-image 0.5s ease-in-out;
+        }
+        header { 
+            background: rgba(0, 0, 0, 0.7); 
+            color: white; 
+            padding: 15px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img {
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { 
+            padding: 20px; 
+            background-color: rgba(255, 255, 255, 0.85); 
+            margin: 20px; 
+            border-radius: 12px; 
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .service-images img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        console.log("Page Loaded");
+    </script>
+</head>
+<body>
+    <header>
+        <img src="Screenshot_2025-04-04_152909-removebg-preview.png" alt="LKR Officials Logo" onerror="console.error('Logo failed to load')">
+        <h1>LKR Officials</h1>
+        <nav>
+            <a href="#services" onclick="console.log('Navigated to Services')">Services</a>
+            <a href="#hire" onclick="console.log('Navigated to Hire an Editor')">Hire an Editor</a>
+            <a href="#about" onclick="console.log('Navigated to About Us')">About Us</a>
+            <a href="#contact" onclick="console.log('Navigated to Contact')">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide professional video editing for YouTubers, Instagram influencers, and content creators.</p>
+        <div class="service-images">
+            <img src="https://zapier.com/blog/images/best-video-editing-software-header@2x.jpg" alt="Video Editing Software" onerror="console.error('Service image failed to load')">
+        </div>
+    </section>
+
+    <section id="hire">
+        <h2>Hire an Editor</h2>
+        <p>Fill out the form to get started with our video editing services.</p>
+        <a href="#contact" class="cta-button" onclick="console.log('Hire an Editor button clicked')">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>LKR Officials is dedicated to providing high-quality video editing solutions for digital creators.</p>
+        <p>We are founded by Lakshya Khandelwal, a passionate video editor and student of NIT Rourkela.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:lakshyaguptak@gmial.com" onclick="console.log('Email clicked')">lakshyaguptak@gmial.com</a></p>
+        <p>Phone: <a href="tel:+917733986287" onclick="console.log('Phone number clicked')">+91 77339 86287</a></p>
+        <p>Instagram: <a href="https://instagram.com/lkr.officials" target="_blank" onclick="console.log('Instagram clicked')">@lkr.officials</a></p>
+        <p>Follow us on social media!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LKR Officials. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
